@@ -1,0 +1,53 @@
+html,
+body {
+  background-color: #fbfbf6;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Jacquarda Bastarda 9", serif;
+  margin: 0;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Cutive Mono", monospace;
+  font-size: min(4vw, 25px);
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  color: #333;
+}
+
+a:visited {
+  color: #333;
+}
+
+.big {
+  font-size: min(10vw, 60px);
+}
+
+.small {
+  font-size: min(5vw, 40px);
+}
+
+.flex-box-horizontal {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
