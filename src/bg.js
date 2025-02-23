@@ -58,7 +58,6 @@ directionalLight.position.set(0, -3, 0);
 directionalLight.castShadow = false;
 scene.add(directionalLight);
 
-
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   antialias: true,
@@ -88,11 +87,11 @@ const tick = () => {
   const elapsedTime = clock.getElapsedTime();
 
   // Update objects
-  
+
   directionalLight.position.x = Math.cos(elapsedTime / 2);
   directionalLight.position.z = Math.sin(elapsedTime / 2);
   directionalLight.target = sphere;
-  
+
   // Render
   renderer.render(scene, camera);
 

@@ -75,7 +75,8 @@ a:visited {
   --bg_color: transparent;
   --A: calc(var(--circle_w) + var(--m_bet_circle));
   --B: calc(var(--circle_w) / 2);
-  background: 0 0 / var(--A) var(--A)
+  background:
+    0 0 / var(--A) var(--A)
       radial-gradient(
         circle at center,
         var(--circle_color) var(--B),
